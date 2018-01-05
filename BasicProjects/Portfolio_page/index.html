@@ -12,19 +12,26 @@
     <div id="parallax1" class="parallax"></div>
     
 <div id="introduction">  
+  <div class="navMenu">
+    <ul class="navMenuList">
+      <a href="#about"><li class="navMenuLi">About me</li></a>
+      <a href="#portfolio"><li class="navMenuLi">Portfolio</li></a>
+      <a href="#contact"><li class="navMenuLi">Contact</li></a>
+    </ul>
+  </div>
   <p class="introHeaders">
     <span class="hello">Hello;</span>
     <br>
     <span class="smallFont">I'm Judit C Pacsai. Front End Web Developer student.</span>
   </p>
-  <img id="arrowFrontDown" class="nav_arrow arrowFront" src="https://i.imgur.com/fOX3mYn.png" alt="scroll arrow down">
+  <a href="#about"><img id="arrowFrontDown" class="nav_arrow arrowFront" src="https://i.imgur.com/fOX3mYn.png" alt="scroll arrow down"></a>
 </div>
 
 <div id="about">
-  <img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up">
+  <a href="#parallax1"><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
   <h1 class="header"><span>About me</span></h1>
   <p class="aboutText smallFont">Lorem ipsum dolor sit amet, mei quod laudem percipitur ne, nostro evertitur intellegebat ne mea. Cu vis lucilius temporibus, ex has persius percipit phaedrum, bonorum percipit at nam. Id eam ferri quaestio. Te blandit postulant his, eu vel debet mollis, quo scripta nonumes accommodare te. Eos admodum aliquando deterruisset ei, duo nostrud saperet perpetua ei, cum ad inani iuvaret percipit.</p>
-  <img class="nav_arrow" src="https://i.imgur.com/Glt3Kf7.png" alt="scroll arrow down">
+  <a href="#portfolio"><img class="nav_arrow" src="https://i.imgur.com/Glt3Kf7.png" alt="scroll arrow down"></a>
 </div>
 
 <div id="parallax2" class="parallax parallaxShort">
@@ -33,12 +40,14 @@
     <img class="nav_arrow" src="https://i.imgur.com/fOX3mYn.png" alt="scroll arrow down">  
 </div>
 
-<div class="portfolio">
-  <img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up">  
+<div id="portfolio" class="portfolio">
+  <a href="#about"><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
   <h1 class="header"><span>Projects</span></h1>
     <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="https://i.imgur.com/v48RuqZ.jpg" alt="Thumbnail of Coco Chanel Tribute page">
+          <a class="cardLink" href="https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/" target="_blank">
+            <img class="card-img-top" src="https://i.imgur.com/v48RuqZ.jpg" alt="Thumbnail of Coco Chanel Tribute page">
+          </a>
           <div class="card-body">
             <h5 class="card-title">Tribute page</h5>
             <p class="card-text">Basic project at freeCodeCamp</p>
@@ -55,7 +64,8 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="https://i.imgur.com/1lbtPRJ.jpg" alt="Thumbnail of Wedding Page">
+            <a class="cardLink" href="https://jpacsai.github.io/codeBerrySchool/HTML-CSS/wedding_page/" target="_blank">
+          <img class="card-img-top" src="https://i.imgur.com/1lbtPRJ.jpg" alt="Thumbnail of Wedding Page"></a>
           <div class="card-body">
             <h5 class="card-title">Wedding page</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -63,9 +73,13 @@
           <div class="card-footer">
             <small class="text-muted"><img class="schoolIcon codeberry_logo" src="https://orange.codeberryschool.com/images/logo/logo@0.5x.png" alt="codeberry school logo">&nbsp;&nbsp;codeBerry project</small>
           </div>
+        
         </div>
+     
         <div class="card">
-          <img class="card-img-top" src="https://i.imgur.com/ltpc0of.jpg" alt="Thumbnail of Color Clock project">
+          <a class="cardLink" href="https://jpacsai.github.io/codeBerrySchool/HTML-CSS-JS/ColorClock/" target="_blank">
+            <img class="card-img-top" src="https://i.imgur.com/ltpc0of.jpg" alt="Thumbnail of Color Clock project">
+          </a>
           <div class="card-body">
             <h5 class="card-title">Color Clock</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -78,7 +92,9 @@
     </div>
     <div class="card-deck">
           <div class="card">
-            <img class="card-img-top" src="https://i.imgur.com/JGJEx7B.jpg" alt="Pixel Art maker thumbnail">
+            <a class="cardLink" href="https://jpacsai.github.io/codeBerrySchool/HTML-CSS-JS/ColorClock/" target="_blank">
+              <img class="card-img-top" src="https://i.imgur.com/JGJEx7B.jpg" alt="Pixel Art maker thumbnail">
+            </a>
             <div class="card-body">
               <h5 class="card-title">Pixel Art Maker</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -109,7 +125,7 @@
           </div>
           
     </div>
-  <img class="nav_arrow" src="https://i.imgur.com/Glt3Kf7.png" alt="scroll arrow down">
+  <a href="#contact"><img class="nav_arrow" src="https://i.imgur.com/Glt3Kf7.png" alt="scroll arrow down"></a>
 </div>
 
 <div id="parallax3" class="parallax parallaxShort">
@@ -118,15 +134,15 @@
   <img class="nav_arrow" src="https://i.imgur.com/fOX3mYn.png" alt="scroll arrow down">
 </div>
 
-<div class="contact">
-    <img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up">
+<div id="contact" class="contact">
+  <a href="#portfolio"><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
   <h1 class="header"><span>Contact me</span></h1>
   <ul class="socialButtons smallFont">
     <li class="btn_social LinkedIn"><a href="https://www.linkedin.com/in/judit-csizmadi%C3%A1n%C3%A9-pacsai-84300360/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
-    <li class="btn_social GitHub"><a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a></li>
-    <li class="btn_social FBook"><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>FaceBook</a></li>
+    <li class="btn_social GitHub"><a href="https://github.com/jpacsai" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a></li>
+    <li class="btn_social FBook"><a href="https://www.facebook.com/judit.pacsai" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>FaceBook</a></li>
   </div>
-  <img class="nav_arrow" src="https://i.imgur.com/Glt3Kf7.png" alt="scroll arrow down">
+  <a href="#credit"><img class="nav_arrow" src="https://i.imgur.com/Glt3Kf7.png" alt="scroll arrow down"></a>
 </ul>
 
 <div id="parallax4" class="parallax parallaxShort">
@@ -135,8 +151,8 @@
     <img class="nav_arrow" src="https://i.imgur.com/fOX3mYn.png" alt="scroll arrow down"> 
 </div>
 
-<div class="credit">
-  <img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up">
+<div id="credit" class="credit">
+  <a href="#contact"><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
   <div class="credit" style="text-decoration: underline;">
     <a href="https://unsplash.com/@jesuskiteque?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" 
       title="Download free do whatever you want high-resolution photos from Jesus Kiteque">
@@ -155,11 +171,10 @@
     <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 </div>
-
-</body>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-<script src="portfolio.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="fadein.js"></script>
+</script>
+</body>
 </html>

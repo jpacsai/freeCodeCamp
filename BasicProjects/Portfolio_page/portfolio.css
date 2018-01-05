@@ -61,6 +61,17 @@ body, html {
 
 /* GLOBAL STYLES */
 
+.introHeaders {
+    opacity: 0;
+    transform: translate(0, 20px); 
+    transition: all 1s;
+  }
+  
+.introHeaders.visible {
+    opacity: 1;
+    transform: translate(0, 0); 
+  }
+
 .header {
     text-align: center; 
     font-family: Roboto, sans-serif;
@@ -101,6 +112,22 @@ body, html {
     line-height: 1.1;
 }
 
+.navMenu {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    font-family: Lato, sans-serif;
+}
+
+.navMenuList {
+    padding: 0;
+}
+
+.navMenuLi {
+    display: inline-block;
+    color: rgba(90, 88, 88, 0.692);
+    margin: 0 2rem;
+}
 
 /* ABOUT PART */
 
@@ -118,12 +145,31 @@ body, html {
 
 .card {
     border: none;
+    overflow: hidden;
 }
 
-.card:hover {
--webkit-transform: scale(0.98);
-        -ms-transform: scale(0.98);
-        transform: scale(0.98);
+.cardLink {
+    height: 60%;
+}
+
+.cardLink img {
+    height: 100%;
+}
+
+.card img {
+    transition: all 0.3s ease 0s;
+}
+
+.card img:hover {
+-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
+
+.card img:active {
+    -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
 }
 
 .card-img-top {
@@ -185,8 +231,6 @@ body, html {
     transform: scale(1.1);
     
 }
-
-
 
 
 /* CREDIT PART */
