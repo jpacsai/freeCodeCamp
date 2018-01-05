@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Lato:300|Roboto:100');
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+
+/* PARALLAX EFFECT */
+
+.parallax {
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxShort {
+    height: 400px;
+}
+
+#parallax1 {
+    background-image: url('https://i.imgur.com/uGVOArm.png');
+}
+
+#parallax2 {
+    background-image: url('https://i.imgur.com/RJpHWiv.jpg');
+}
+
+#parallax3 {
+    background-image: url('https://i.imgur.com/7r0qZwt.jpg');
+}
+
+#parallax4 {
+    background-image: url('https://i.imgur.com/WHDfx9x.jpg');
+}
+
+.paral_space {
+    height: 300px;
+}
+
+/* NAV ARROWS */
+
+.nav_arrow {
+    width: 50px;    
+    position: relative;
+    left: 48.2%;
+    transition: all .2s ease-in-out;
+}
+
+.arrowFront {
+    position: absolute; 
+    bottom: 0; 
+}
+
+.nav_arrow:hover {
+    transform: scale(1.5);
+}
+
+/* GLOBAL STYLES */
+
+.header {
+    text-align: center; 
+    font-family: Roboto, sans-serif;
+    color: whitesmoke;
+    line-height: 180%;
+    margin: 4rem auto;
+    text-transform: uppercase;
+ } 
+
+.smallFont {
+    font-size: 150%;
+    font-family: Lato, sans-serif;
+    text-align: justify;
+}
+
+.schoolIcon {
+   height: 19px;
+}
+
+
+/* FRONT PAGE PART */
+
+#introduction {
+    text-align: center;
+    color: #302D2D;
+}
+
+.introHeaders {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+}
+
+.hello {
+    font-size: 1200%;
+    font-family: "EB Garamond", serif;
+    line-height: 1.1;
+}
+
+
+/* ABOUT PART */
+
+.aboutText {
+    margin: auto 3rem 3rem;
+    color: whitesmoke;
+}
+
+
+/* PORTFOLIO PART */
+
+.card-deck {
+    margin: 1rem 1rem 5rem;
+}
+
+.card {
+    border: none;
+}
+
+.card:hover {
+-webkit-transform: scale(0.98);
+        -ms-transform: scale(0.98);
+        transform: scale(0.98);
+}
+
+.card-img-top {
+    height: 60%;
+    object-fit: cover;
+}
+
+
+/* CONTACT PART */
+
+.socialButtons {
+    margin-bottom: 4rem;
+    text-align: center;
+    padding: 0;
+}
+
+.btn_social {
+    width: 16%;
+    height: 48px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto 2rem;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    position:relative
+}
+
+.btn_social a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: whitesmoke;
+    position:absolute;
+    top:50%;
+    margin-top: -12px;
+    margin-left: -50%;
+    line-height: 1;
+    /* http://phrogz.net/css/vertical-align/ */
+}
+
+.contact .fa {
+    margin-right: 1rem;
+}
+
+.LinkedIn {
+    background-color: #0077b5;
+}
+
+.GitHub {
+    background-color:  #333;
+}
+
+.FBook {
+    background-color:  #3b5998;
+}
+
+.btn_social:hover {
+    transform: scale(1.1);
+    
+}
+
+
+
+
+/* CREDIT PART */
+
+.credit {
+    color: #0fdce0;
+    margin: 0 1rem 1rem;
+    font-family: Lato, sans-serif;
+}
+
+.credit a {
+    text-decoration: underline;
+    color: #0fdce0;
+}
+
+.credit a:hover {
+    color: whitesmoke;
+}
+.fontIcon {
+    color: whitesmoke;
+}
