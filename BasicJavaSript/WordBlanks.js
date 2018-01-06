@@ -10,6 +10,7 @@ an adjective, a verb and an adverb, and we can add words of our choice to comple
 sentence to a variable as follows:
 
 var sentence = "It was really" + "hot" + ", and we" + "laughed" + "ourselves" + "silly.";
+
 */
 
 
