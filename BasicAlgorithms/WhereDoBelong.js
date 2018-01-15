@@ -11,12 +11,12 @@ it will look like [3,5,20] and 19 is less than 20 (index 2) and greater than 5 (
 */
 
 function getIndexToIns(arr, num) {
-    var newArr = arr.slice(0).sort(function(a,b) {return a-b;}).push(+Infinity);
-    console.log(newArr.unshift(-Infinity));
-    /*for (var i = 0; i < arr.length-1; i++) {
-      if ()
+  var newArr = arr.slice(0).sort(function(a,b) {return a-b;});
+  newArr.unshift(-Infinity);
+  newArr.push(+Infinity);
+  for (var i = 1; i < newArr.length; i++) {
+    if (newArr[i-1]< num && newArr[i] >= num) {
+      return i-1;
     }
-    return num;*/
   }
-  
-  getIndexToIns([40, 60], 50);
+}
