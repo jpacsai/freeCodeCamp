@@ -3,15 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>Random Quote</title>
+  <link rel="stylesheet" href="quote.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="quote.js"></script>
 </head>
 <body>
   <h1 class = "title">Random Quote</h1>
-<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
   <a class = "btn generator" href="#"><i class="fa fa-refresh fa-fw"></i>New Quote</a>
   <div class = "card smallFont">
-    Cat ipsum dolor sit amet, sniff catnip and act crazy Gate keepers of hell yet stick butt in face why must they do that. Leave hair everywhere. 
+    <p id="quote-title"></p>
+    <p id="quote-text"></p> 
   </div>
   <a class = "btn twitter-share-button" href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Tweet it!</a>
 </body>

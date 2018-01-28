@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dosis');
 
 body {
-  background-image: url('http://www.publicdomainpictures.net/pictures/120000/velka/watercolor-bokeh-pastel-background.jpg');
+  background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/Colorful-Grungy-Watercolor-Texture-Backgrounds.jpg');
   color: #5f5f5f;
 }
 
@@ -13,7 +13,7 @@ body {
 
 .btn {
   display: block;
-  background-color: white;
+  background-color: whitesmoke;
   border: none;
   color: #5f5f5f;
   font-size: 100%;
@@ -33,7 +33,7 @@ body {
 }
 
 .generator {
-  margin: 7rem auto 2rem;
+  margin: 2rem auto 2rem;
 }
 
 .twitter-share-button {
@@ -44,12 +44,11 @@ body {
   width: 50%;
   min-width: 10rem;
   background-color: whitesmoke;
-  margin: 1rem auto;
+  margin: 5rem auto;
   padding: 2rem;
   text-align: center;
   font-family: Dosis;
   font-size: 150%;
-  box-shadow: 1px 1px 20px whitesmoke;
 }
 
 .fa {
