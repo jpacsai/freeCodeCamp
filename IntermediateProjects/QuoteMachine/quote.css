@@ -48,7 +48,14 @@ body {
   padding: 2rem;
   text-align: center;
   font-family: Dosis;
+}
+
+.quote {
   font-size: 150%;
+}
+
+.source {
+  font-size: 120%;
 }
 
 .fa {
