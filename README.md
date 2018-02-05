@@ -7,7 +7,7 @@
   - [x] &nbsp;Responsive Desing with Bootstrap  
   - [x] &nbsp;jQuery  
   - [x] &nbsp;[Basic Front End Development Projects](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicProjects)
-     - [x] Build a Tribute Page 
+     - [x] [Build a Tribute Page](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/)
      - [x] Build a Personal Portfolio Webpage
   - [x] &nbsp;[Basic JavaScript](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicJavaSript)
   - [x] &nbsp;Object Oriented and Functional Programming    
