@@ -7,15 +7,15 @@
   - [x] &nbsp;Responsive Desing with Bootstrap  
   - [x] &nbsp;jQuery  
   - [x] &nbsp;[Basic Front End Development Projects](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicProjects)
-     - [x] Build a Tribute Page 
+     - [x] [Build a Tribute Page](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/)
      - [x] Build a Personal Portfolio Webpage
   - [x] &nbsp;[Basic JavaScript](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicJavaSript)
   - [x] &nbsp;Object Oriented and Functional Programming    
   - [x] &nbsp;[Basic Algorithm Scripting](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicAlgorithms)
   - [x] &nbsp;JSON API and Ajax
   - [ ] &nbsp;[Intermediate Front End Development Projects](https://github.com/jpacsai/freeCodeCamp/tree/master/IntermediateProjects)
-     - [ ] &nbsp;Random Quote Machine :hourglass_flowing_sand:
-     - [ ] &nbsp;Local Weather
+     - [x] &nbsp;Random Quote Machine
+     - [ ] &nbsp;Local Weather :hourglass_flowing_sand:
      - [ ] &nbsp;Wikipedia Viewer
      - [ ] &nbsp;Twitch.tv JSON API
   - [ ] &nbsp;Intermediate Algorithm Scripting  
