@@ -1,0 +1,30 @@
+body {
+    position: relative;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/257092/pexels-photo-257092.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    background-color: whitesmoke;
+    height: 10em;
+    margin: 0 auto;
+    margin-top: -5em;
+    padding: 5%;
+    width: 500px;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clouds {
+    background-image: url("https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+}
+
+.rain {
+    background-image: url("https://images.pexels.com/photos/325676/pexels-photo-325676.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+}
+
