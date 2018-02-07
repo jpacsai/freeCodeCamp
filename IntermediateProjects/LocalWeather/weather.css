@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre');
+
 body {
     background-image: url("https://images.pexels.com/photos/257092/pexels-photo-257092.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
     overflow: hidden;
@@ -37,6 +39,27 @@ body {
     width: 500px;
     margin-left: -250px;
     margin-top: -12rem;
-    padding: 50px;
-    
+    padding: 20px 50px;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+.headline {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 350%;
+}
+
+.smallText {
+    font-family: "Proza Libre", sans-serif;
+    font-size: 150%;
+    line-height: 0.75;
+}
+
+.degreeType {
+    color: blue;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
 }

@@ -10,7 +10,7 @@ $(document).ready(function() {
     } else {
         $('.location').text("Geolocation is not supported by this browser.");
     }
-
+    let celsius;
     function weather(position) {
         latitude = position.coords.latitude;
         longitude = position.coords.longitude;
@@ -28,8 +28,9 @@ $(document).ready(function() {
                     weatherMain.push((data.weather[w[i]].main + " ").trim());
                 }    
                 $weatherText.text(weatherMain);
-
-                $degree.prepend(data.main.temp + " °" + "<span class='degreeType'>C</span>");
+                celsius = Math.round(data.main.temp);
+                $degree.prepend(celsius + " °");
+                $('.degreeType').addClass('visible');
                 $weatherIcon.append("<img src=" + data.weather[0].icon + ">");
                 
                 let backgClass;
@@ -47,10 +48,21 @@ $(document).ready(function() {
                         backgClass = "snow";
                 }
                 $('body').addClass(backgClass);
-                    
             }
         );
-
+        
+        $('.degreeType').click( function () {
+            //$(this).text("hi");
+            let farenheit = celsius * 9/5 + 32;
+            console.log(celsius , "C");
+            console.log(farenheit, " F");
+            $(this).text($(this).text() == 'C' ? 'F' : 'C');
+            ($('.degreeType').text() == 'C') ? 
+                $('.degree').text(celsius + " °") :
+                $('.degree').text(farenheit);
+            
+        });
     }
+    
     
 });
