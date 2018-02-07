@@ -19,9 +19,19 @@ $(document).ready(function() {
             weatherUrl,
             function(data) {
                 console.log(data);
+
                 $location.text(data.name + ", " + data.sys.country);
-                $weatherText.text(data.weather[0].main);
-                $degree.prepend(data.main.temp + " ");
+
+                let weatherMain = [];
+                let w = Object.keys(data.weather);
+                for (let i = 0; i < w.length; i++) {
+                    weatherMain.push((data.weather[w[i]].main + " ").trim());
+                }    
+                $weatherText.text(weatherMain);
+
+                $degree.prepend(data.main.temp + " °" + "<span class='degreeType'>C</span>");
+                $weatherIcon.append("<img src=" + data.weather[0].icon + ">");
+                
                 let backgClass;
                 switch (data.weather[0].main) {
                     case "Clouds":
@@ -30,6 +40,11 @@ $(document).ready(function() {
                     case "Rain":
                         backgClass = "rain";
                         break;
+                    case "Mist":
+                        backgClass = "mist";
+                        break;
+                    case "Snow":
+                        backgClass = "snow";
                 }
                 $('body').addClass(backgClass);
                     
