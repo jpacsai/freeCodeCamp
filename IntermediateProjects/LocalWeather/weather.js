@@ -29,7 +29,7 @@ $(document).ready(function() {
                 }    
                 $weatherText.text(weatherMain);
                 celsius = Math.round(data.main.temp);
-                $degree.prepend(celsius + " °");
+                $degree.text(celsius + " °");
                 $('.degreeType').addClass('visible');
                 $weatherIcon.append("<img src=" + data.weather[0].icon + ">");
                 
@@ -46,6 +46,24 @@ $(document).ready(function() {
                         break;
                     case "Snow":
                         backgClass = "snow";
+                        break;
+                    case "Clear sky":
+                        backgClass = "clearSky";
+                        break;
+                    case "Few clouds":
+                        backgClass = "fewClouds";
+                        break;
+                    case "Scattered clouds":
+                        backgClass = "scatteredClouds";
+                        break;
+                    case "Broken clouds":
+                        backgClass = "brokenClouds";
+                        break;
+                    case "Shower rain":
+                        backgClass = "showerRain";
+                        break;
+                    case "Thunderstorm":
+                        backgClass = "thunderstorm";
                 }
                 $('body').addClass(backgClass);
             }
@@ -56,10 +74,11 @@ $(document).ready(function() {
             let farenheit = celsius * 9/5 + 32;
             console.log(celsius , "C");
             console.log(farenheit, " F");
+
             $(this).text($(this).text() == 'C' ? 'F' : 'C');
             ($('.degreeType').text() == 'C') ? 
                 $('.degree').text(celsius + " °") :
-                $('.degree').text(farenheit);
+                $('.degree').text(farenheit + " °");
             
         });
     }

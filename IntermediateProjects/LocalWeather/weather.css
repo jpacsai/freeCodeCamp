@@ -28,6 +28,30 @@ body {
     background-image: url("https://images.pexels.com/photos/209839/pexels-photo-209839.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
 }
 
+.clearSky {
+    background-image: url("http://leverhawk.com/wp-content/uploads/2013/09/iStock_000012580113Medium.jpg");
+}
+
+.fewCloud {
+    background-image: url("https://images.pexels.com/photos/80476/hayden-valley-yellowstone-valley-landscape-80476.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+}
+
+.scatteredClouds {
+    background-image: url("https://images.pexels.com/photos/45848/kumamoto-japan-aso-cloud-45848.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+}
+
+.brokenClouds {
+    background-image: url("http://www.blogforphotos.com/images/hdr-in-helsinki/helsinki-lapinlahden-silta-hdr.jpg");
+}
+
+.showerRain {
+    background-image: url("http://www.petra.gov.jo/library/636173326809669439.jpg");
+}
+
+.thunderstorm {
+    background-image: url("https://www.flyingmag.com/sites/flyingmag.com/files/styles/1000_1x_/public/images/2017/06/everything-explained-june.jpg?itok=UsjdV7uz&fc=50,50");
+}
+
 .container {
     text-align: center;
     position: absolute;
@@ -35,10 +59,10 @@ body {
     top: 50%;
     left: 50%;
     background-color: whitesmoke;
-    height: 24rem;
+    height: 28rem;
     width: 500px;
     margin-left: -250px;
-    margin-top: -12rem;
+    margin-top: -14rem;
     padding: 20px 50px;
     box-shadow: 0 0 25px whitesmoke;
 }
@@ -54,6 +78,14 @@ body {
     line-height: 0.75;
 }
 
+.location {
+    margin-bottom: 3rem;
+}
+
+.degreeContainer {
+    margin-bottom: 3rem;
+    font-size: 200%;
+}
 .degreeType {
     color: blue;
     cursor: pointer;
