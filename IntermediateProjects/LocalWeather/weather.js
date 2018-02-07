@@ -18,8 +18,6 @@ $(document).ready(function() {
         $.get(
             weatherUrl,
             function(data) {
-                console.log(data);
-
                 $location.text(data.name + ", " + data.sys.country);
 
                 let weatherMain = [];
@@ -70,10 +68,8 @@ $(document).ready(function() {
         );
         
         $('.degreeType').click( function () {
-            //$(this).text("hi");
+
             let farenheit = celsius * 9/5 + 32;
-            console.log(celsius , "C");
-            console.log(farenheit, " F");
 
             $(this).text($(this).text() == 'C' ? 'F' : 'C');
             ($('.degreeType').text() == 'C') ? 
