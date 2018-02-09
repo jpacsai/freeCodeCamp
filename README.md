@@ -14,8 +14,8 @@
   - [x] &nbsp;[Basic Algorithm Scripting](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicAlgorithms)
   - [x] &nbsp;JSON API and Ajax
   - [ ] &nbsp;[Intermediate Front End Development Projects](https://github.com/jpacsai/freeCodeCamp/tree/master/IntermediateProjects)
-     - [x] &nbsp;Random Quote Machine
-     - [x] &nbsp;Local Weather 
+     - [x] [Random Quote Machine](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/)
+     - [x] [Local Weather](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/LocalWeather/)
      - [ ] &nbsp;Wikipedia Viewer :hourglass_flowing_sand:
      - [ ] &nbsp;Twitch.tv JSON API
   - [ ] &nbsp;Intermediate Algorithm Scripting  
