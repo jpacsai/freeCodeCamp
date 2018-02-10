@@ -16,6 +16,10 @@ body {
 .smallText {
     font-family: Monda, san-serif;
     font-size: 120%;
+    color: rgba(213,201,207,0.5);
+}
+
+.normalColor {
     color: #d5c9cf;
 }
 
@@ -25,6 +29,12 @@ body {
     font-weight: 400;
     
 }
+
+.hide {
+    visibility: hidden;
+}
+
+/* ------------------ */
 
 .title {
     width: 600px;
@@ -81,9 +91,6 @@ a:visited:hover {
     height: 80px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0);
-    font-family: Monda, san-serif;
-    font-size: 120%;
-    color: #d5c9cf;
     border: none;
 }
 
@@ -100,6 +107,22 @@ a:visited:hover {
     padding: 0;
 }
 
+.icons {
+    float: right;
+    width: 100px;
+    height: 80px;
+    margin-top: -80px;
+    text-align: center;
+
+}
+
+.searchIcon {
+    position: relative;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    cursor: pointer;
+}
 
 
 /*  https://www.reliablepsd.com/ultimate-google-font-pairings/ 
