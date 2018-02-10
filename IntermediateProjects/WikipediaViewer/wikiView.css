@@ -1,0 +1,33 @@
+body {
+    height: 100vw;
+    background-image: url("https://www.reliablepsd.com/wp-content/themes/reliable/images/blog/bg22@2x.jpg");
+    background-size: auto 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.title {
+    width: 30%;
+    padding: 10px;
+    color: #131313;
+    margin: 3% auto 0;
+    background-color: #c6bdc1;
+}
+
+.inputBox {
+    width: 30%;
+    height: 30px;
+    font-size: 150%;
+    padding: 10px;
+    background-color: #e3dcdf;
+    color: #e2ae77;
+    border: none;
+}
+
+.inputBox:active {
+    border: none;
+}
+
+/*  https://www.reliablepsd.com/ultimate-google-font-pairings/ 
+    https://codepen.io/freeCodeCamp/full/wGqEga
+    */
