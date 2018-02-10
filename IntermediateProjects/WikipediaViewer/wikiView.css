@@ -3,9 +3,10 @@
 body {
     height: 100vw;
     background-image: url("https://www.reliablepsd.com/wp-content/themes/reliable/images/blog/bg22@2x.jpg");
-    background-size: auto 50%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     overflow: hidden;
+    background-attachment: fixed;
 }
 
 *:focus {
