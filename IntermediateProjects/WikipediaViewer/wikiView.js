@@ -62,7 +62,7 @@ $(document).ready(function() {
             $icon.fadeIn('fast');
         }  
         // API
-        var wikiUrl = "http://en.wikipedia.org/w/api.php?action=opensearch&search=" + $input.val() + "&format=json&callback=wikiCallback";
+        var wikiUrl = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + $input.val() + "&format=json&callback=wikiCallback";
         event.preventDefault();
         $.ajax( {
             
