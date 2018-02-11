@@ -19,15 +19,21 @@ body {
     color: rgba(213,201,207,0.5);
 }
 
+.articleText {
+    font-size: 80%;
+}
+
 .normalColor {
     color: #d5c9cf;
 }
 
+.darkColor {
+    color: #131313;
+}
 .titleText {
     font-family: "Julius Sans One", sans-serif;
     font-size: 280%;
     font-weight: 400;
-    
 }
 
 .hide {
@@ -40,10 +46,10 @@ body {
     width: 600px;
     box-sizing: border-box;
     padding: 50px 0;
-    color: #131313;
-    margin: 3% auto 0;
+    margin: 45px auto 0;
     background-color: #c6bdc1;
     text-align: center;
+    height: 150px;
 }
 .container-up {
     position: relative;
@@ -51,7 +57,7 @@ body {
     box-sizing: border-box;
     width: 600px;
     height: 80px;
-    margin-top: 40px auto;
+    margin-top: 40px;
     margin-left: -300px;
     border: none;
     background-color: rgba(0, 0, 0, 0.7);
@@ -77,11 +83,11 @@ body {
     line-height:80px;
 }
 
-a:visited {
+.randomLink:visited {
     color: #d5c9cf;
 }
 
-a:visited:hover {
+.randomLink:visited:hover {
     color: #131313;;
 }
 
@@ -124,6 +130,42 @@ a:visited:hover {
     cursor: pointer;
 }
 
+.resultContainer {
+    width: 600px;
+    margin: 20px auto;
+    height: calc(100vh - 455px - 40px);
+}
+
+.scroll {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.result {
+    min-height: 80px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    color: #131313;
+    margin: 3% auto 0;
+    background-color: #c6bdc1;
+}
+
+.result:hover {
+    background-color: #9d9699;
+}
+
+.resultLink {
+    text-decoration: none;
+    color: #131313;
+}
+
+.resultLink:visited {
+    color: #131313;
+}
+
+.articleContent {
+    display: block;
+}
 
 /*  https://www.reliablepsd.com/ultimate-google-font-pairings/ 
     https://codepen.io/freeCodeCamp/full/wGqEga
