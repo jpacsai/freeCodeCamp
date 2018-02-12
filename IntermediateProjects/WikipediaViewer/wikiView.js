@@ -43,6 +43,10 @@ $(document).ready(function() {
             $icon.fadeIn('fast');
             // delete search results
             $('.resultContainer').remove();
+
+            // move objects down
+            $('.randomContainer').animate({marginTop: '+=40px'}, 500);
+            $('.searchContainer').animate({marginTop: '+=80px'}, 800);
         }
         else if ($input.val() != "" && $input.val() != "Search Wikipedia") {
             event.preventDefault();
@@ -51,7 +55,11 @@ $(document).ready(function() {
     })
 
     function searching(){
-        
+
+        // move objects up
+        $('.randomContainer').animate({marginTop: '-=40px'}, 500);
+        $('.searchContainer').animate({marginTop: '-=80px'}, 800);
+         
         //$('.resultContainer').removeClass('scroll');
         $('.resultContainer').remove();
         // change icon from search to x
@@ -69,7 +77,6 @@ $(document).ready(function() {
             url: wikiUrl,
             dataType: 'jsonp',
             success: function(response) {
-                console.log(response);
                 $('body').append('<div class="resultContainer"></div>');
 
                 var articlelist = response[1];

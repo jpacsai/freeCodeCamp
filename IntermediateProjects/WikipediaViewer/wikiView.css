@@ -3,7 +3,7 @@
 body {
     height: 100vw;
     background-image: url("https://www.reliablepsd.com/wp-content/themes/reliable/images/blog/bg22@2x.jpg");
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     background-attachment: fixed;
@@ -100,11 +100,6 @@ body {
     border: none;
 }
 
-.container-down {
-    position: relative;
-    margin-top: 0;
-}
-
 .search {
     position: relative;
     top: -75px;
@@ -131,9 +126,9 @@ body {
 }
 
 .resultContainer {
-    width: 600px;
+    width: 1000px;
     margin: 20px auto;
-    height: calc(100vh - 455px - 40px);
+    height: calc(100vh - 410px);
 }
 
 .scroll {
