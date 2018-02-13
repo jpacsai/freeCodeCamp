@@ -48,11 +48,7 @@ body, html {
     position: relative;
     left: 48.2%;
     transition: all .2s ease-in-out;
-}
-
-.arrowFront {
-    position: absolute; 
-    bottom: 0; 
+    cursor: pointer;
 }
 
 .nav_arrow:hover {
@@ -60,17 +56,6 @@ body, html {
 }
 
 /* GLOBAL STYLES */
-
-.introHeaders {
-    opacity: 0;
-    transform: translate(0, 20px); 
-    transition: all 1s;
-  }
-  
-.introHeaders.visible {
-    opacity: 1;
-    transform: translate(0, 0); 
-  }
 
 .header {
     text-align: center; 
@@ -91,6 +76,10 @@ body, html {
    height: 19px;
 }
 
+.mainPart {
+    margin-bottom: 6rem;
+}
+
 
 /* FRONT PAGE PART */
 
@@ -104,6 +93,7 @@ body, html {
     left: 0;
     top: 25%;
     width: 100%;
+    opacity: 0;
 }
 
 .hello {
@@ -117,6 +107,9 @@ body, html {
     top: 10px;
     width: 100%;
     font-family: Lato, sans-serif;
+}
+.nav-btn {
+    cursor: pointer;
 }
 
 .navMenuList {
@@ -208,7 +201,6 @@ body, html {
     margin-top: -12px;
     margin-left: -50%;
     line-height: 1;
-    /* http://phrogz.net/css/vertical-align/ */
 }
 
 .contact .fa {
@@ -227,15 +219,18 @@ body, html {
     background-color:  #3b5998;
 }
 
+.CodePen {
+    background-color:  #111010;
+}
+
 .btn_social:hover {
     transform: scale(1.1);
-    
 }
 
 
 /* CREDIT PART */
 
-.credit {
+.creditFooter {
     color: #0fdce0;
     margin: 0 1rem 1rem;
     font-family: Lato, sans-serif;

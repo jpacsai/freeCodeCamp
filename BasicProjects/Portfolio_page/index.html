@@ -6,44 +6,49 @@
   <title>Judit C. Pacsai</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+  <script src="portfolio.js"></script>
   <link href="portfolio.css" rel="stylesheet">
 </head>
 <body>
     <div id="parallax1" class="parallax"></div>
     
 <div id="introduction">  
+  <!--              NAV              -->
   <div class="navMenu">
     <ul class="navMenuList">
-      <a href="#about"><li class="navMenuLi">About me</li></a>
-      <a href="#portfolio"><li class="navMenuLi">Portfolio</li></a>
-      <a href="#contact"><li class="navMenuLi">Contact</li></a>
+      <a id="about-btn" class="nav-btn"><li class="navMenuLi">About me</li></a>
+      <a id="portfolio-btn" class="nav-btn"><li class="navMenuLi">Portfolio</li></a>
+      <a id="contact-btn" class="nav-btn"><li class="navMenuLi">Contact</li></a>
     </ul>
   </div>
+  <!--          INTRODUCTION              -->
   <p class="introHeaders">
     <span class="hello">Hello;</span>
     <br>
     <span class="smallFont">I'm Judit C Pacsai. Front End Web Developer student.</span>
   </p>
-  <a href="#about"><img id="arrowFrontDown" class="nav_arrow arrowFront" src="https://i.imgur.com/fOX3mYn.png" alt="scroll arrow down"></a>
 </div>
 
-<div id="about">
-  <a href="#parallax1"><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
+<!--              ABOUT              -->
+<div id="about" class="mainPart">
+  <a><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
   <h1 class="header"><span>About me</span></h1>
   <p class="aboutText smallFont">Lorem ipsum dolor sit amet, mei quod laudem percipitur ne, nostro evertitur intellegebat ne mea. Cu vis lucilius temporibus, ex has persius percipit phaedrum, bonorum percipit at nam. Id eam ferri quaestio. Te blandit postulant his, eu vel debet mollis, quo scripta nonumes accommodare te. Eos admodum aliquando deterruisset ei, duo nostrud saperet perpetua ei, cum ad inani iuvaret percipit.</p>
-  <a href="#portfolio"><img class="nav_arrow" src="https://i.imgur.com/Glt3Kf7.png" alt="scroll arrow down"></a>
 </div>
 
 <div id="parallax2" class="parallax parallaxShort">
-    <img class="nav_arrow" src="https://i.imgur.com/dj0Vegu.png" alt="scroll arrow up">
-    <div class="paral_space"></div>
-    <img class="nav_arrow" src="https://i.imgur.com/fOX3mYn.png" alt="scroll arrow down">  
+      <div class="paral_space"></div>
 </div>
 
-<div id="portfolio" class="portfolio">
-  <a href="#about"><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
+<!--            PORTFOLIO              -->
+<div id="portfolio" class="mainPart">
+  <a><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
   <h1 class="header"><span>Projects</span></h1>
+
+  <!--              DECK 1              -->
     <div class="card-deck">
+        <!--             CARD 1              -->
         <div class="card">
           <a class="cardLink" href="https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/" target="_blank">
             <img class="card-img-top" src="https://i.imgur.com/v48RuqZ.jpg" alt="Thumbnail of Coco Chanel Tribute page">
@@ -62,6 +67,7 @@
             <small class="text-muted"><i class="fa fa-free-code-camp" aria-hidden="true"></i>&nbsp;&nbsp;freeCodeCamp project</small>
           </div>
         </div>
+        <!--             CARD 2              -->
         <div class="card">
             <a class="cardLink" href="https://jpacsai.github.io/codeBerrySchool/HTML-CSS/wedding_page/" target="_blank">
           <img class="card-img-top" src="https://i.imgur.com/1lbtPRJ.jpg" alt="Thumbnail of Wedding Page"></a>
@@ -72,9 +78,8 @@
           <div class="card-footer">
             <small class="text-muted"><img class="schoolIcon codeberry_logo" src="https://orange.codeberryschool.com/images/logo/logo@0.5x.png" alt="codeberry school logo">&nbsp;&nbsp;codeBerry project</small>
           </div>
-        
         </div>
-     
+        <!--             CARD 3              -->
         <div class="card">
           <a class="cardLink" href="https://jpacsai.github.io/codeBerrySchool/HTML-CSS-JS/ColorClock/" target="_blank">
             <img class="card-img-top" src="https://i.imgur.com/ltpc0of.jpg" alt="Thumbnail of Color Clock project">
@@ -87,9 +92,11 @@
             <small class="text-muted"><img class="schoolIcon codeberry_logo" src="https://orange.codeberryschool.com/images/logo/logo@0.5x.png" alt="codeberry school logo">&nbsp;&nbsp;codeBerry project</small>
           </div>
         </div>
-        
     </div>
+
+  <!--            DECK 2              -->
     <div class="card-deck">
+          <!--             CARD 4              -->
           <div class="card">
             <a class="cardLink" href="https://jpacsai.github.io/codeBerrySchool/HTML-CSS-JS/ColorClock/" target="_blank">
               <img class="card-img-top" src="https://i.imgur.com/JGJEx7B.jpg" alt="Pixel Art maker thumbnail">
@@ -102,6 +109,7 @@
               <small class="text-muted"><img class="schoolIcon udacity_logo" src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="udacity school logo">&nbsp;&nbsp;Google Udacity project</small>
             </div>
           </div>
+          <!--             CARD 5              -->
           <div class="card">
             <a class="cardLink" href="https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/" target="_blank">
               <img class="card-img-top" src="https://i.imgur.com/XoHaEIM.jpg" alt="Thumbnail of Random Quote Machine">
@@ -114,68 +122,104 @@
               <small class="text-muted"><i class="fa fa-free-code-camp" aria-hidden="true"></i>&nbsp;&nbsp;freeCodeCamp project</small>
             </div>
           </div>
+          <!--             CARD 6              -->
           <div class="card">
-            <img class="card-img-top" src="https://www.curatedmedia.co.uk/components/com_easyblog/themes/wireframe/images/placeholder-image.png" alt="Thumbnail of Color Clock project">
+            <img class="card-img-top" src="https://i.imgur.com/LK7vW4b.jpg" alt="Thumbnail of Wikipedia Viewer project">
             <div class="card-body">
-              <h5 class="card-title">Something</h5>
+              <h5 class="card-title">Wikipedia Viewer</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <small class="text-muted"><i class="fa fa-free-code-camp" aria-hidden="true"></i>&nbsp;&nbsp;freeCodeCamp project</small>
             </div>
           </div>
           
     </div>
-  <a href="#contact"><img class="nav_arrow" src="https://i.imgur.com/Glt3Kf7.png" alt="scroll arrow down"></a>
+
+  <!--            DECK 3              -->
+    <div class="card-deck">
+      <!--             CARD 7              -->
+      <div class="card">
+        <a class="cardLink" href="https://jpacsai.github.io/codeBerrySchool/HTML-CSS-JS/ColorClock/" target="_blank">
+          <img class="card-img-top" src="https://i.imgur.com/JGJEx7B.jpg" alt="Pixel Art maker thumbnail">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Pixel Art Maker</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><img class="schoolIcon udacity_logo" src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="udacity school logo">&nbsp;&nbsp;Google Udacity project</small>
+        </div>
+      </div>
+      <!--             CARD 8              -->
+      <div class="card">
+        <a class="cardLink" href="https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/" target="_blank">
+          <img class="card-img-top" src="https://i.imgur.com/XoHaEIM.jpg" alt="Thumbnail of Random Quote Machine">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Random Quote Machine</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><i class="fa fa-free-code-camp" aria-hidden="true"></i>&nbsp;&nbsp;freeCodeCamp project</small>
+        </div>
+      </div>
+      <!--             CARD 9              -->
+      <div class="card">
+        <img class="card-img-top" src="https://i.imgur.com/LK7vW4b.jpg" alt="Thumbnail of Wikipedia Viewer project">
+        <div class="card-body">
+          <h5 class="card-title">Wikipedia Viewer</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><i class="fa fa-free-code-camp" aria-hidden="true"></i>&nbsp;&nbsp;freeCodeCamp project</small>
+        </div>
+      </div>
+    </div>
+
 </div>
 
 <div id="parallax3" class="parallax parallaxShort">
-  <img class="nav_arrow" src="https://i.imgur.com/dj0Vegu.png" alt="scroll arrow up">
   <div class="paral_space"></div>
-  <img class="nav_arrow" src="https://i.imgur.com/fOX3mYn.png" alt="scroll arrow down">
 </div>
 
-<div id="contact" class="contact">
-  <a href="#portfolio"><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
+<!--              CONTACT              -->
+<div id="contact" class="mainPart">
+  <a><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
   <h1 class="header"><span>Contact me</span></h1>
   <ul class="socialButtons smallFont">
     <li class="btn_social LinkedIn"><a href="https://www.linkedin.com/in/judit-csizmadi%C3%A1n%C3%A9-pacsai-84300360/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
     <li class="btn_social GitHub"><a href="https://github.com/jpacsai" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a></li>
     <li class="btn_social FBook"><a href="https://www.facebook.com/judit.pacsai" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>FaceBook</a></li>
+    <li class="btn_social CodePen"><a href="https://codepen.io/jutzee/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i>CodePen</a></li>
   </div>
-  <a href="#credit"><img class="nav_arrow" src="https://i.imgur.com/Glt3Kf7.png" alt="scroll arrow down"></a>
 </ul>
 
 <div id="parallax4" class="parallax parallaxShort">
-    <img class="nav_arrow" src="https://i.imgur.com/dj0Vegu.png" alt="scroll arrow up">
     <div class="paral_space"></div>
-    <img class="nav_arrow" src="https://i.imgur.com/fOX3mYn.png" alt="scroll arrow down"> 
 </div>
 
-<div id="credit" class="credit">
-  <a href="#contact"><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
-  <div class="credit" style="text-decoration: underline;">
-    <a href="https://unsplash.com/@jesuskiteque?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" 
-      title="Download free do whatever you want high-resolution photos from Jesus Kiteque">
-    <span style="display:inline-block; padding:2px 3px;">
-      <svg xmlns="http://www.w3.org/2000/svg" 
-      style="height:12px; width:auto; position:relative; vertical-align:middle;top:-1px; fill:white;" 
-    viewBox="0 0 32 32"><title>unsplash-logo</title>
-      <path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path>
-      </svg></span><span style="display:inline-block; padding:2px 3px;text-decoration: underline;">Jesus Kiteque</span></a>
+<!--              FOOTER              -->
+<div id="credit" class="creditFooter">
+  <a><img class="nav_arrow" src="https://i.imgur.com/Qoho9sC.png" alt="scroll arrow up"></a>
+<!-- BACKGROUND CREDIT -->
 
+  <div class="credit">
+    <span>Front page background: </span>
+    <a href="https://unsplash.com/@jesuskiteque?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" 
+      title="Download free do whatever you want high-resolution photos from Jesus Kiteque">Jesus Kiteque
+    </a>
   </div>
 
-  <div class="credit"><span style="display:inline-block; padding:2px 3px;">&nbsp;&nbsp;<i class="fa fa-angle-right fontIcon" aria-hidden="true" style="height:12px; width:auto; position:relative; vertical-align:middle; top:-1px; fill:white;" 
-    viewBox="0 0 32 32"></i></span>
-    Icons made by <a href="https://www.flaticon.com/authors/lucy-g" title="Lucy G">Lucy G</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by 
-    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<!-- ARROW ICON CREDIT -->
+  <div class="credit">
+    <span>Arrow icon: </span>
+    <a href="https://www.flaticon.com/authors/lucy-g" title="Lucy G">Lucy G</a> from 
+    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by 
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+  </div>
 
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-<script src="fadein.js"></script>
 </script>
 </body>
 </html>
