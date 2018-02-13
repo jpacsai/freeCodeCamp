@@ -8,7 +8,7 @@
   - [x] &nbsp;jQuery  
   - [x] &nbsp;[Basic Front End Development Projects](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicProjects)
      - [x] [Build a Tribute Page](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/)
-     - [x] Build a Personal Portfolio Webpage
+     - [x] [Build a Personal Portfolio Webpage](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Portfolio_page/)
   - [x] &nbsp;[Basic JavaScript](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicJavaSript)
   - [x] &nbsp;Object Oriented and Functional Programming    
   - [x] &nbsp;[Basic Algorithm Scripting](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicAlgorithms)
