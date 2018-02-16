@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700i|Source+Sans+Pro');
+
+body {
+    height: 100vw;
+    background-image: url("https://i.imgur.com/GqtNKK8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+    
+}
+
+.title {
+    box-sizing: border-box;
+    text-align: center;
+    width: 60%;
+    height: 10%;
+    background-color: #d9d874;
+    font-family: 'Playfair Display', serif;
+    font-size: 300%;
+    padding: 2% auto;
+    margin-top: 4%;
+    
+}
