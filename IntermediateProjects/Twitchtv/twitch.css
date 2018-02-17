@@ -53,8 +53,12 @@ table {
 body {
     height: 100vh;
     display: grid;
-    grid-template: 5% 20% 1fr 5% / 25% 50% 25%;
-    background-image: url("https://i.imgur.com/GqtNKK8.jpg");
+    grid-template: 35% 65% / 10% 1fr 10%;
+}
+
+.header {
+    grid-area: 1 / 1 / 2 / 4;
+    background-image: url("https://i.imgur.com/toULnmn.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -63,20 +67,22 @@ body {
 }
 
 .title {
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 1 / 1 / 2 / 4;
     height: 100%;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-family: 'Arvo', serif;
-    font-size: 350%;
-    color: whitesmoke;
+    font-family: 'Unica One', serif;
+    font-size: 400%;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.container {
-    grid-area: 3 / 2 / 4 / 3;
-    background-color: #f4f39d;
+.title span {
+    color: black;
+}
+
+.content {
+    grid-area: 2 / 1 / 3 / 4;
+    background-color: #f8f8f8;
 }
