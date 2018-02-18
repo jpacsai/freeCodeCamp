@@ -1,6 +1,6 @@
 # Local Weather
 
-## [Link]
+## [Link](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/LocalWeather/)
 
 ### Objective:  
 -  I can see the weather in my current location.
