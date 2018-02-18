@@ -16,14 +16,14 @@ function getStream() {
             // check if streaming or not
             if (data.stream == null) {
                 streaming = 'OFFLINE';
-                $('.content').append('<div class="channel"><img class="channelImg" src="' + logo +'" alt="channel thumbnail"><p class="channelTitle">' + channel + 'freeCodeCamp</p><p class="activity">' + streaming + '</p></div>');
+                $('.content').append('<div class="channel"><img class="channelImg" src="' + logo +'" alt="channel thumbnail"><p class="channelTitle">' + channel + '</p><p class="activity">' + streaming + '</p></div>');
 
             }
             else {
                 streaming = data.stream.channel.status;
                 logo = data.stream.channel.logo;
                 streamUrl = data.stream.channel.url;
-                $('.content').prepend('<div class="channel streaming"><img class="channelImg" src="' + logo +'" alt="channel thumbnail"><p class="channelTitle">' + channel + 'freeCodeCamp</p><p class="activity">' + streaming + '</p><a class="streamLink" href="' + streamUrl +'" target="_blank"><i class="fa fas fa-play fa-2x"></i></a></div>');
+                $('.content').prepend('<div class="channel streaming"><img class="channelImg" src="' + logo +'" alt="channel thumbnail"><p class="channelTitle">' + channel + '</p><p class="activity">' + streaming + '</p><a class="streamLink" href="' + streamUrl +'" target="_blank"><i class="fa fas fa-play fa-2x"></i></a></div>');
             }
         });
     })
