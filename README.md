@@ -13,7 +13,7 @@
   - [x] &nbsp;Object Oriented and Functional Programming    
   - [x] &nbsp;[Basic Algorithm Scripting](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicAlgorithms)
   - [x] &nbsp;JSON API and Ajax
-  - [ ] &nbsp;[Intermediate Front End Development Projects](https://github.com/jpacsai/freeCodeCamp/tree/master/IntermediateProjects)
+  - [x] &nbsp;[Intermediate Front End Development Projects](https://github.com/jpacsai/freeCodeCamp/tree/master/IntermediateProjects)
      - [x] [Random Quote Machine](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/)
      - [x] [Local Weather](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/LocalWeather/)
      - [x] [Wikipedia Viewer](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/WikipediaViewer/)
