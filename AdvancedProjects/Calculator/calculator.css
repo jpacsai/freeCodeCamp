@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background-color: black;
+  background-color: #D7FCF4;
 }
 
 main {
@@ -19,34 +19,34 @@ main {
 .calculator {
   box-sizing: border-box;
   width: 300px;
-  height: 500px;
-  padding: 10px;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #6A687A;
-  border-radius: 15px;
+  background-color: #4D4D51;
+  border-radius: 5px;
   box-shadow: inset 0 0 5px black, 2px 2px 5px black;
-  font-family: sans-serif;
+  font-family: Orbitron, sans-serif;
 }
 
 .display {
   width: 240px;
+  max-width: 240px;
   height: 80px;
-  margin: 10px 0 20px;
+  margin: 20px 0 20px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #eee;
+  background-color: #BECAC0;
   border: 2px solid black;
   box-shadow: inset 0 0 5px black;
   text-align: right;
 }
 
 .input {
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 .history {
@@ -64,23 +64,22 @@ main {
 
 .button {
   box-sizing: border-box;
-  width: 50px;
+  width: 25%;
   height: 50px;
-  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eee;
-  border-radius: 15px;
+  background-color: #E4FE29;
+  border-radius: 2px;
   font-weight: bold;
   font-size: 1.5em;
   border: 1px solid black;
-  box-shadow: inset 0 0 5px black, 4px 3px 2px #414141;
+  box-shadow: inset 0 0 3px black;
   cursor: pointer;
 }
 
-.btn-ac, .btn-c {
-  background-color: #FB3640;
+.corner {
+  border-radius: 2px 2px 5px 5px;  
 }
 
 .btn-ac {
@@ -146,7 +145,7 @@ main {
 
 .btn-plus {
   order: 16;
-  height: 120px;
+  height: 100px;
 }
 
 .btn-0 {
@@ -163,23 +162,13 @@ main {
 
 .position {
   position: relative;
-  top: -70px;
+  top: -50px;
 }
 
 /* - - - PUSH ANIMATION - - - */
 
 .push {
-  background-color: grey;
+  background-color: #A6B91E;
   box-shadow: none;
   position: relative;
-  left: 3px;
-  top: 3px;
-}
-
-.pushPosition {
-  background-color: grey;
-  box-shadow: none;
-  position: relative;
-  top: -67px;
-  left: 3px;
 }
