@@ -13,11 +13,11 @@
   - [x] &nbsp;Object Oriented and Functional Programming    
   - [x] &nbsp;[Basic Algorithm Scripting](https://github.com/jpacsai/freeCodeCamp/tree/master/BasicAlgorithms)
   - [x] &nbsp;JSON API and Ajax
-  - [ ] &nbsp;[Intermediate Front End Development Projects](https://github.com/jpacsai/freeCodeCamp/tree/master/IntermediateProjects)
+  - [x] &nbsp;[Intermediate Front End Development Projects](https://github.com/jpacsai/freeCodeCamp/tree/master/IntermediateProjects)
      - [x] [Random Quote Machine](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/)
      - [x] [Local Weather](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/LocalWeather/)
      - [x] [Wikipedia Viewer](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/WikipediaViewer/)
-     - [ ] Twitch.tv JSON API :hourglass_flowing_sand:
-  - [ ] &nbsp;Intermediate Algorithm Scripting  
-  - [ ] &nbsp;Advanced Algorithm Scripting  
-  - [ ] &nbsp;Advanced Front End Development Projects
+     - [x] [Twitch.tv JSON API](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/Twitchtv/)
+  - [x] &nbsp;Intermediate Algorithm Scripting 
+  - [x] &nbsp;Advanced Algorithm Scripting  
+  - [ ] &nbsp;Advanced Front End Development Projects :hourglass_flowing_sand:
