@@ -27,6 +27,7 @@ $( document ).ready(function() {
         let push = $(this).text();
         let input = $(".input").text();
         let isOperation = false;
+        
         if (input.length === 1 && operations.includes(input[0]) === true) {
             isOperation = true;
         }
@@ -140,31 +141,29 @@ $( document ).ready(function() {
         }
 
         function number() {
-            if (history[history.length-1] != "/" && push != "0" || input.length > 1) {
-                /* if input is 0 */
-                if (input.length === 1 && $(".input").text() == 0) {
-                    $(".input").text(push);
+            /* if input is 0 */
+            if (input.length === 1 && $(".input").text() == 0) {
+                $(".input").text(push);
+            }
+            /* if input is an operation character */
+            else if (isOperation === true) {
+                /* add input value to history line */
+                history += input;
+                if (history.toString().length > 15) {
+                    $(".history").text("error");
+                    $(".input").text("0");
                 }
-                /* if input is an operation character */
-                else if (isOperation === true) {
-                    /* add input value to history line */
-                    history += input;
-                    if (history.toString().length > 15) {
-                        $(".history").text("error");
-                        $(".input").text("0");
-                    }
-                    $(".history").text(history);
-                    $(".input").text(push);
+                $(".history").text(history);
+                $(".input").text(push);
                 }
-                /* add number to end of input field */
+            /* add number to end of input field */
+            else {
+                if (isEqual === true) {
+                    $(".input").text(push);
+                    isEqual === false; 
+                }
                 else {
-                    if (isEqual === true) {
-                        $(".input").text(push);
-                        isEqual === false; 
-                    }
-                    else {
-                        $(".input").text(input + push);
-                    }
+                    $(".input").text(input + push);
                 }
             }
         }
