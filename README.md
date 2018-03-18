@@ -20,4 +20,8 @@
      - [x] [Twitch.tv JSON API](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/Twitchtv/)
   - [x] &nbsp;Intermediate Algorithm Scripting 
   - [x] &nbsp;Advanced Algorithm Scripting  
-  - [ ] &nbsp;Advanced Front End Development Projects :hourglass_flowing_sand:
+  - [ ] &nbsp;Advanced Front End Development Projects
+     - [x] JavaScript Calculator  
+     - [ ] Pomodoro Clock :hourglass_flowing_sand:
+     - [ ] Tic Tac Toe
+     - [ ] Simon Game
