@@ -3,10 +3,10 @@
     - [x] Basic HTML and HTML5 
     - [X] Basic CSS
     - [x] Applied Visual Design
-    - [ ] Applied Accessibility
-    - [ ] Responsive Web Design Principles
-    - [ ] CSS Flexbox
-    - [ ] CSS Grid
+    - [x] Applied Accessibility
+    - [x] Responsive Web Design Principles
+    - [x] CSS Flexbox
+    - [x] CSS Grid
     - [ ] **Responsive Web Design Projects:**
       - [x] [Tribute page](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/)
       - [ ] Survey Form
