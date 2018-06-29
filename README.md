@@ -1,5 +1,5 @@
 # freeCodeCamp
-- [ ] Responsive Web Design Certification (300 hours)
+- [ ] **Responsive Web Design Certification (300 hours)**
     - [x] Basic HTML and HTML5 
     - [X] Basic CSS
     - [x] Applied Visual Design
@@ -13,18 +13,18 @@
       - [ ] Product Landing Page
       - [ ] Technical Documentation Page
       - [x] [Personal Portfolio Webpage](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Portfolio_page/)
-  - [x] [Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/jpacsai/javascript-algorithms-and-data-structures) (300 hours)
+- [x] **[Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/jpacsai/javascript-algorithms-and-data-structures) (300 hours)** ✔️
     - [x] Basic JavaScript
     - [ ] ES6
     - [ ] Regular Expressions
-    - [ ] Debugging
+    - [x] Debugging
     - [ ] Basic Data Structures
     - [ ] Basic Algorithm Scripting
     - [ ] Object Oriented Programming
     - [ ] Functional Programming
     - [x] Intermediate Algorithm Scripting
     - [x] **JavaScript Algorithms and Data Structures Projects**
-  - [ ] Front End Libraries Certification (300 hours)
+- [ ] **Front End Libraries Certification (300 hours)**
     - [x] Bootstrap
     - [x] jQuery
     - [ ] Sass
