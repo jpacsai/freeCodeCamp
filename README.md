@@ -29,7 +29,7 @@
     - [x] jQuery
     - [ ] Sass
     - [x] React
-    - [ ] Redux
+    - [x] Redux
     - [ ] React and Redux
     - [ ] **Front End Libraries Projects**
       - [x] [Random Quote Machine](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/)
