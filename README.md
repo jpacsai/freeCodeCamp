@@ -30,7 +30,7 @@
     - [ ] Sass
     - [x] React
     - [x] Redux
-    - [ ] React and Redux
+    - [x] React and Redux
     - [ ] **Front End Libraries Projects**
       - [x] [Random Quote Machine](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/)
       - [ ] Markdown Previewer
