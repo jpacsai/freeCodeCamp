@@ -27,7 +27,7 @@
 - [ ] **Front End Libraries Certification (300 hours)**
     - [x] Bootstrap
     - [x] jQuery
-    - [ ] Sass
+    - [x] Sass
     - [x] React
     - [x] Redux
     - [x] React and Redux
