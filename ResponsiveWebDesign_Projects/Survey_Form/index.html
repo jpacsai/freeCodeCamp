@@ -5,10 +5,152 @@
   <meta name="viewport" content="width=device-width">
   <title>Survey Form</title>
   <link rel="icon" href="#">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+  <h1 id="title">Restaurant Satisfaction Survey</h1>
+  <p id="description">A short survey to find out about your dining experience at our restaurant. Your opinion helps us to serve you better.</p>
+  <form id="survey-form">
+      <fieldset>
+        <legend>Please enter your personal details:</legend>
+        <div id="personal-details">
+          <label for="name" id="name-label">Name</label>
+          <input id="name" type="text" required placeholder="Name">
+    
+          <label for="email" id="email-label">Email address</label>
+          <input id="email" type="email" required placeholder="email@example.com">
+    
+          <label for="number" id="number-label">Age</label>
+          <input id="number" type="number" required min="0" max="100" placeholder="0-100">
+        </div>
+        
+      </fieldset>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <fieldset>
+        <legend>Meal:</legend>
+
+        <div id='meal'>
+          <div id="meal-type">
+            <label>What did you have</label>
+            <select id="dropdown">
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+            </select>
+          </div>
+    
+          <div id="scores-container">
+            <div class="score-group">
+              <label>Interior</label>
+              <div class="scores">
+                <input type="radio" name="interior" value="poor"> Poor
+                <input type="radio" name="interior" value="fair"> Fair
+                <input type="radio" name="interior" value="avarage"> Avarage
+                <input type="radio" name="interior" value="good"> Good
+                <input type="radio" name="interior" value="excellent"> Excellent
+              </div>
+            </div>
+    
+            <div class="score-group">
+              <label>Service</label>
+              <div class="scores">
+                <input type="radio" name="interior" value="poor"> Poor
+                <input type="radio" name="interior" value="fair"> Fair
+                <input type="radio" name="interior" value="avarage"> Avarage
+                <input type="radio" name="interior" value="good"> Good
+                <input type="radio" name="interior" value="excellent"> Excellent
+              </div>
+            </div>
+    
+            <div class="score-group">
+              <label>Taste of food</label>
+              <div class="scores">
+                <input type="radio" name="interior" value="poor"> Poor
+                <input type="radio" name="interior" value="fair"> Fair
+                <input type="radio" name="interior" value="avarage"> Avarage
+                <input type="radio" name="interior" value="good"> Good
+                <input type="radio" name="interior" value="excellent"> Excellent
+              </div>
+            </div>
+    
+            <div class="score-group">
+              <label>Appearance of food</label>
+              <div class="scores">
+                <input type="radio" name="interior" value="poor"> Poor
+                <input type="radio" name="interior" value="fair"> Fair
+                <input type="radio" name="interior" value="avarage"> Avarage
+                <input type="radio" name="interior" value="good"> Good
+                <input type="radio" name="interior" value="excellent"> Excellent
+              </div>
+            </div>
+    
+            <div class="score-group">
+              <label>Value</label>
+              <div class="scores">
+                <input type="radio" name="interior" value="poor"> Poor
+                <input type="radio" name="interior" value="fair"> Fair
+                <input type="radio" name="interior" value="avarage"> Avarage
+                <input type="radio" name="interior" value="good"> Good
+                <input type="radio" name="interior" value="excellent"> Excellent
+              </div>
+            </div>
+    
+            <div class="score-group">
+              <label>Overall Satisfaction</label>
+              <div class="scores">
+                <input type="radio" name="interior" value="poor"> Poor
+                <input type="radio" name="interior" value="fair"> Fair
+                <input type="radio" name="interior" value="avarage"> Avarage
+                <input type="radio" name="interior" value="good"> Good
+                <input type="radio" name="interior" value="excellent"> Excellent
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Menu items ordered:</legend>
+        <ul class="ordered-items">
+          <li>
+            <input type="checkbox" name="vehicle3" value="Boat"> Starter<br>
+          </li>
+          <li>
+            <input type="checkbox" name="vehicle3" value="Boat"> Main course<br>
+          </li>
+          <li>
+            <input type="checkbox" name="vehicle3" value="Boat"> Salad<br>
+          </li>
+          <li>
+            <input type="checkbox" name="vehicle3" value="Boat"> Dessert<br>
+          </li>
+          <li>
+            <input type="checkbox" name="vehicle1" value="Bike"> Soft drink<br>
+          </li>
+          <li>
+            <input type="checkbox" name="vehicle1" value="Bike"> Wine<br>
+          </li>
+          <li>
+            <input type="checkbox" name="vehicle2" value="Car"> Cocktail<br>
+          </li>
+          <li>
+            <input type="checkbox" name="vehicle3" value="Boat"> Coffee<br>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Enter your comments here</legend>
+          <textarea name="comment" placeholder="Comments..."></textarea>
+      </fieldset>
+
+      <input id="submit" type="submit" value="Submit">
+  </form>
+
+  <p id="thanks">Thank you for your participation</p>
+
+  <a href='https://www.freepik.com/free-vector/vector-damask-seamless-pattern-background-classical-luxury-old-fashioned-damask-ornament-royal-victorian-seamless-texture-for-wallpapers-textile-wrapping-exquisite-floral-baroque-template_1283647.htm'>Background pattern Designed by Freepik</a>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

@@ -1,0 +1,117 @@
+html {
+    background-image: url("https://i.imgur.com/cJOSZ6b.jpg");
+}
+
+body {
+    margin: auto;
+    width: 800px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f4f7;
+}
+
+#title,
+#description,
+#thanks,
+legend,
+fieldset label,
+input[type = 'submit'] {
+    font-family: 'Playfair Display', serif;
+}
+
+#description {
+    width: 80%;
+    text-align: center;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+fieldset {
+    padding: 10px;
+    margin: 10px;
+}
+
+fieldset label,
+legend {
+    font-weight: bold;
+}
+
+legend {
+    font-size: 22px;
+}
+
+#personal-details {
+    display: grid;
+    grid-template: 1fr / 40% 40% ;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+#personal-details label,
+#meal-type label {
+    text-align: right;
+}
+
+#meal {
+    display: flex;
+    flex-direction: column;
+}
+
+#meal-type {
+    display: grid;
+    grid-template: 1fr / 40% 40% ;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.score-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.score-group label {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.scores {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ordered-items {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ordered-items li{
+    border: 1px transparent solid;
+    display: inline-block;
+    width: 20%;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+input[type = 'submit'] {
+    width: 110px;
+    height: 50px;
+    font-size: 20px;
+    align-self: center;
+    background-color: #daceda;
+    font-weight: bold;
+}
