@@ -14,7 +14,7 @@ For this challenge you will be presented with a string such as 800-692-7753 or 8
 */
 
 function telephoneCheck(str) {
-    var nums;
+    var num;
     var count = str.match(/[0-9]/g);
     if (count.length === 11) {
       num = str.replace(/[02-9]/g,"5").replace(/[\s]/g,"");

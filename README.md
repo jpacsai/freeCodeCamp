@@ -1,4 +1,44 @@
-# freeCodeCamp
+# [freeCodeCamp](https://www.freecodecamp.org/)
+- [ ] **Responsive Web Design Certification (300 hours)**
+    - [x] Basic HTML and HTML5 
+    - [X] Basic CSS
+    - [x] Applied Visual Design
+    - [x] Applied Accessibility
+    - [x] Responsive Web Design Principles
+    - [x] CSS Flexbox
+    - [x] CSS Grid
+    - [ ] **Responsive Web Design Projects:**
+      - [x] [Tribute page](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/)
+      - [ ] Survey Form
+      - [ ] Product Landing Page
+      - [ ] Technical Documentation Page
+      - [x] [Personal Portfolio Webpage](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Portfolio_page/)
+- [x] **[Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/jpacsai/javascript-algorithms-and-data-structures) (300 hours)** ✔️
+    - [x] Basic JavaScript
+    - [ ] ES6
+    - [ ] Regular Expressions
+    - [x] Debugging
+    - [ ] Basic Data Structures
+    - [x] Basic Algorithm Scripting
+    - [ ] Object Oriented Programming
+    - [ ] Functional Programming
+    - [x] Intermediate Algorithm Scripting
+    - [x] **JavaScript Algorithms and Data Structures Projects**
+- [ ] **Front End Libraries Certification (300 hours)**
+    - [x] Bootstrap
+    - [x] jQuery
+    - [x] Sass
+    - [x] React
+    - [x] Redux
+    - [x] React and Redux
+    - [ ] **Front End Libraries Projects**
+      - [x] [Random Quote Machine](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/)
+      - [ ] Markdown Previewer
+      - [ ] Drum Machine
+      - [x] [JavaScript Calculator ](https://jpacsai.github.io/freeCodeCamp/AdvancedProjects/Calculator/)
+      - [ ] Pomodoro Clock
+
+## OLD COURSE STRUCTURE:
 
 - ### [**freeCodeCamp - Front End Development Path**](https://www.freecodecamp.org/)  
   24/10/2017 -  
