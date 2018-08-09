@@ -8,11 +8,11 @@
     - [x] CSS Flexbox
     - [x] CSS Grid
     - [ ] **Responsive Web Design Projects:**
-      - [x] [Tribute page](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/)
-      - [ ] Survey Form
+      - [x] [Tribute page](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Tribute_page/)
+      - [x] [Survey Form](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Survey_Form/)
       - [ ] Product Landing Page
       - [ ] Technical Documentation Page
-      - [x] [Personal Portfolio Webpage](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Portfolio_page/)
+      - [x] [Personal Portfolio Webpage](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Portfolio_page/)
 - [x] **[Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/jpacsai/javascript-algorithms-and-data-structures) (300 hours)** ✔️
     - [x] Basic JavaScript
     - [ ] ES6
