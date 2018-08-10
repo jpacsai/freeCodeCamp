@@ -1,33 +1,50 @@
-
-
-#header {
-    background-color: #192639;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
+body {
+    margin: 0;
 }
 
-#header-img {
-    height: 50px;
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5vw;
+    background-color: #192639;
+    color: white;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    box-sizing: border-box;
 }
 
 #nav-bar {
+    width: 64vw;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 30%;
+}
+
+#header-img {
+    height: 10vh;
+    margin: 0 7px;
 }
 
 .nav-link {
+    margin: 0 7px;
     text-transform: uppercase;
-    font-family: sans-serif;
-    cursor: pointer;
 }
 
 .nav-link:hover {
     color: palevioletred;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 60vh;
+    background-image: url("./pics/cake-cupcake-cupcakes-585581.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+    filter: brightness(50%);
 }
