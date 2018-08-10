@@ -1,0 +1,33 @@
+
+
+#header {
+    background-color: #192639;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+#header-img {
+    height: 50px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: palevioletred;
+}
