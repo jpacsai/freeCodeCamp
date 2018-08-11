@@ -6,10 +6,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 5vw;
+    padding: 0 5vw;
     background-color: #192639;
     color: white;
     position: fixed;
+    top: 0;
+    height: 15vh;
     width: 100vw;
     z-index: 2;
     box-sizing: border-box;
@@ -29,6 +31,8 @@ body {
 .nav-link {
     margin: 0 7px;
     text-transform: uppercase;
+    font-family: sans-serif;
+    cursor: pointer;
 }
 
 .nav-link:hover {
@@ -36,15 +40,62 @@ body {
 }
 
 .background {
-    position: absolute;
-    top: 0;
     z-index: -1;
     width: 100vw;
     height: 60vh;
-    background-image: url("./pics/cake-cupcake-cupcakes-585581.jpg");
+    position: relative;
+    background-image: url("./pics/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     background-attachment: fixed;
-    filter: brightness(50%);
+    filter: brightness(80%) blur(5px);
+}
+
+.title-container {
+    position: absolute;
+    top: 15vh;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.title {
+    color: white;
+}
+
+main {
+    background-color: white;
+}
+
+#video-container {
+    padding: 7vw;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#video-wrapper {
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+iframe {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+}
+
+.menu-item {
+    width: 20vw;
+}
+
+.menu-item img {
+    width: 100%;
 }
