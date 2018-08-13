@@ -11,7 +11,7 @@ body {
     color: white;
     position: fixed;
     top: 0;
-    height: 15vh;
+    height: 70px;
     width: 100vw;
     z-index: 2;
     box-sizing: border-box;
@@ -24,7 +24,7 @@ body {
 }
 
 #header-img {
-    height: 10vh;
+    height: 57px;
     margin: 0 7px;
 }
 
@@ -54,8 +54,8 @@ body {
 
 .title-container {
     position: absolute;
-    top: 15vh;
-    height: 45vh;
+    top: 70px;
+    height: calc(60vh - 70px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,18 +94,38 @@ iframe {
 
 #menu {
     display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#menu h2 {
+    margin: 0 auto 20px;
+    color: grey;
+}
+
+.menu-item-container {
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 50px;
-    max-width: 800px;
     margin: 0 auto;
 }
 
 .menu-item {
-    height: 50vh;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    width: 15vw;
+    min-width: 220px;
     margin: 20px;
 }
 
 .menu-item img {
-    height: 100%;
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+}
+
+.menu-item h3 {
+    margin: 0 auto 20px;
+    color: grey;
 }
