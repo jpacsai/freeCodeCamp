@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Product Landing Page</title>
+  <link rel="icon" href="#">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <header id="header">   
+    <div class="header-nav">
+      <img src="https://i.imgur.com/P1ZeKon.png" id="header-img">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#header">Home</a>
+        <a class="nav-link" href="#menu">Menu</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="title-container">
+        <h1 class="title">Cakery</h1>
+        <p>All things sweet</p>
+    </div>
+    <div class="background"></div>
+  </header>
+  <main>
+    <section id="menu">
+      <h2 class="section-header">Menu</h2>
+      <div class="menu-item-container">
+        <div class="menu-item">
+          <h3>Pies and Tarts</h3>
+          <img src="./pics/pie.jpg">
+        </div>
+        <div class="menu-item">
+          <h3>Pastries</h3>
+          <img src="./pics/pastry.jpg">
+        </div>
+        <div class="menu-item">
+          <h3>Cupcakes</h3>
+          <img src="./pics/cupcake.jpg">
+        </div>
+        <div class="menu-item">
+          <h3>Special Cakes</h3>
+          <img src="./pics/cake.jpg">
+        </div>
+      </div>
+    </section>
+    <section id="video-container">
+      <div id="video-wrapper">
+        <iframe id="video" src="https://www.youtube.com/embed/nilhRHpeIO8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="contact">
+      <h2 class="section-header">Contact</h2>
+      <p>Join our newsletter and enjoy 10% off from your first order</p>
+      <form id="form" action='https://www.freecodecamp.com/email-submit'>
+        <input id="email" name='email' type="email" required placeholder="email@example.com">
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
