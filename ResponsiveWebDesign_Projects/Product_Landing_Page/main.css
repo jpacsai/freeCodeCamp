@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri:400i|Great+Vibes');
+
 body {
     margin: 0;
 }
@@ -61,35 +63,51 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
+    color: white;
 }
 
 .title {
-    color: white;
+    font-family: 'Great Vibes', serif;
+    font-size: 80px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.section-header,
+.title-container p {
+    font-family: 'Amiri', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0;
+}
+
+.section-header {
+    font-size: 24px;
+}
+
+.title-container p:before,
+.title-container p:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.title-container p:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.title-container p:after {
+  left: 0.5em;
+  margin-right: -50%;
 }
 
 main {
     background-color: white;
-}
-
-#video-container {
-    padding: 7vw;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#video-wrapper {
-    position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-
-iframe {
-    position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-    height: 100%;
 }
 
 #menu {
@@ -98,9 +116,39 @@ iframe {
     padding-top: 50px;
 }
 
-#menu h2 {
+.section-header {
     margin: 0 auto 20px;
     color: grey;
+}
+
+.section-header:before,
+.section-header:after,
+.title-container p:before,
+.title-container p:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.section-header:before,
+.title-container p:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.section-header:after,
+.title-container p:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.section-header:before,
+.section-header:after {
+    background-color: gray;
 }
 
 .menu-item-container {
@@ -127,5 +175,58 @@ iframe {
 
 .menu-item h3 {
     margin: 0 auto 20px;
+    font-family: 'Amiri', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: grey;
+}
+
+#video-container {
+    padding: 7vw 7vw 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#video-wrapper {
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+iframe {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Amiri', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: grey;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact form input {
+    text-align: center;
+    margin: 5px auto;
+    font-family: 'Amiri', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
     color: grey;
 }
