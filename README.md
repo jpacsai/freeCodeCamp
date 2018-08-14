@@ -1,5 +1,5 @@
 # [freeCodeCamp](https://www.freecodecamp.org/)
-- [ ] **Responsive Web Design Certification (300 hours)**
+- [x] **[Responsive Web Design Certification](https://www.freecodecamp.org/certification/jpacsai/responsive-web-design) (300 hours)**  ✔️
     - [x] Basic HTML and HTML5 
     - [X] Basic CSS
     - [x] Applied Visual Design
@@ -11,7 +11,7 @@
       - [x] [Tribute page](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Tribute_page/)
       - [x] [Survey Form](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Survey_Form/)
       - [x] [Product Landing Page](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Product_Landing_Page/)
-      - [x] Technical Documentation Page
+      - [x] [Technical Documentation Page](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Technical_Documentation/)
       - [x] [Personal Portfolio Webpage](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Portfolio_page/)
 - [x] **[Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/jpacsai/javascript-algorithms-and-data-structures) (300 hours)** ✔️
     - [x] Basic JavaScript
