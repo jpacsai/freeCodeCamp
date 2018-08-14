@@ -1,0 +1,52 @@
+body {
+    background-color: aliceblue;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 15vw;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+main {
+    width: 80vw;
+    height: 100vh;
+    left: 15vw;
+    position: absolute;
+    padding: 0 20px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        position: unset;
+        width: 100vw;
+        height: 20vh;
+    }
+    
+    main {
+        width: 100vw;
+        left: 0;
+    }
+}
