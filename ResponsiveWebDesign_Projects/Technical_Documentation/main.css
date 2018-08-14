@@ -1,48 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Roboto:300');
+
 body {
-    background-color: aliceblue;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 nav {
     position: fixed;
-    width: 15vw;
+    width: 25vw;
     left: 0;
     top: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    box-sizing: border-box;
+}
+
+nav header,
+#main-title {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav header {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: gray;
+    color: white;
 }
 
 main {
-    width: 80vw;
+    width: 73vw;
     height: 100vh;
-    left: 15vw;
+    left: 25vw;
     position: absolute;
     padding: 0 20px;
+    box-sizing: border-box;
+}
+
+main section header {
+    width: calc(100% - 20px);
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px;
 }
 
 code {
     display: block;
     text-align: left;
-    white-space: pre;
+    white-space: pre-line;
     position: relative;
     word-break: break-all;
     overflow-wrap: break-word;
     line-height: 2;
     background-color: #f7f7f7;
     padding: 15px;
-    margin: 10px;
     border-radius: 5px;
-    width: 80%;
 }
 
 @media screen and (max-width: 900px) {
     nav {
         position: unset;
         width: 100vw;
-        height: 20vh;
+        height: unset;
     }
     
     main {
