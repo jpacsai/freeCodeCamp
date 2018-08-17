@@ -6,6 +6,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-marked": "^0.3.1",
+    "react-redux": "^5.0.7",
     "react-scripts": "1.1.4"
   },
   "scripts": {
