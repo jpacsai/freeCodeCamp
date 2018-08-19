@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "homepage": "http://jpacsai.github.io/freeCodeCamp/FrontEndLibraries_Projects/markdown_previewer/",
     "marked": "^0.5.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
