@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dosis');
+
+body {
+  background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/Colorful-Grungy-Watercolor-Texture-Backgrounds.jpg');
+  color: #5f5f5f;
+}
+
+.title {
+  text-align: center;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 4.5em;
+}
+
+.btn {
+  display: block;
+  background-color: whitesmoke;
+  border: none;
+  color: #5f5f5f;
+  font-size: 100%;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  width: 8rem;
+  text-align: center;
+  box-shadow: 1px 1px 20px whitesmoke;
+  font-family: Dosis;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: whitesmoke;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.generator {
+  margin: 2rem auto 2rem;
+}
+
+.twitter-share-button {
+  margin: 2rem auto;
+}
+
+.card {
+  width: 50%;
+  min-width: 10rem;
+  background-color: whitesmoke;
+  margin: 5rem auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Dosis;
+}
+
+.quote {
+  font-size: 150%;
+}
+
+.source {
+  font-size: 120%;
+}
+
+.fa {
+  margin: 0 20px 0 0;
+}
