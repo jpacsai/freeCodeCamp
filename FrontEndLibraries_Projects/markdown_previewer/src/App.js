@@ -13,18 +13,25 @@ class App extends Component {
 		return (
 			<main>
 				<h1 className='title'>Markdown previewer</h1>
-				<div className='editor-container'>
-					<h2>Editor</h2>
-					<textarea 
-						id="editor"
-						type='text'
-						value={ this.props.editorText}
-						onChange={(e) => this.props.editorAction(e) }/>
-				</div>
+				<div className='containers'>
+					<div className='editor-container'>
+						<h2 className='container-header'>Editor</h2>
+						<textarea 
+							id="editor"
+							type='text'
+							value={ this.props.editorText}
+							onChange={(e) => this.props.editorAction(e) }/>
+					</div>
 
-				<h2>Preview</h2>
-				<div id="preview" dangerouslySetInnerHTML={ { __html: markedPreview } }>
+					<div className='preview-container'>
+						<h2 className='container-header'>Preview</h2>
+						<div id="preview" dangerouslySetInnerHTML={ { __html: markedPreview } }>
+						</div>
+					</div>
 				</div>
+				
+
+				
 			</main>
 		);
 	}
