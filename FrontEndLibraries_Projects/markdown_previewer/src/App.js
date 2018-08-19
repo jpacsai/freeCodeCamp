@@ -12,7 +12,9 @@ class App extends Component {
 
 		return (
 			<main>
-				<div>
+				<h1 className='title'>Markdown previewer</h1>
+				<div className='editor-container'>
+					<h2>Editor</h2>
 					<textarea 
 						id="editor"
 						type='text'
@@ -20,6 +22,7 @@ class App extends Component {
 						onChange={(e) => this.props.editorAction(e) }/>
 				</div>
 
+				<h2>Preview</h2>
 				<div id="preview" dangerouslySetInnerHTML={ { __html: markedPreview } }>
 				</div>
 			</main>

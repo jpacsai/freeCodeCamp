@@ -4,7 +4,7 @@ const defaultState = `
 
 This is a [link](https://www.freecodecamp.org/) to freeCodeCamp.
 
-Some inline code: \`<p></p>\`
+\`<p>Some inline code</p>\`
 
 A code block:
 \`\`\`
@@ -17,10 +17,13 @@ Some list items:
 - two
 - three
 
-> Block quote
+> "Without hard work, nothing grows but weeds. 
+> Gordon B. Hinckley"
 
-An image:
-![freeCodeCamp logo](https://secure.meetupstatic.com/photos/event/4/c/b/b/600_468259643.jpeg)
+**Bold text**
+
+An image:  
+![react logo](https://i.imgur.com/MqUvs9s.png)
 `
 
 export default function editorReducer(state = defaultState, action) {
