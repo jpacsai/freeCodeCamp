@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import textInput from './actions/textInput';
 import editorAction from './actions/editorText-action';
+import marked from 'marked';
 
 class App extends Component {
 
-	componentDidMount() {
-		const text = this.props.editorText;
-		this.props.textInput(text);
-	}
-
 	render() {
+
+		const markedPreview = marked(this.props.editorText, {sanitize: true});
+
 		return (
 			<main>
 				<div>
@@ -19,13 +17,10 @@ class App extends Component {
 						id="editor"
 						type='text'
 						value={ this.props.editorText}
-						onChange={(e) => {
-							const t = e.target.value;
-							this.props.editorAction(t)
-						} }/>
+						onChange={(e) => this.props.editorAction(e) }/>
 				</div>
 
-				<div id="preview" dangerouslySetInnerHTML={ { __html: this.props.previewText } }>
+				<div id="preview" dangerouslySetInnerHTML={ { __html: markedPreview } }>
 				</div>
 			</main>
 		);
@@ -34,14 +29,12 @@ class App extends Component {
 
 function mapStateToProps(state) {
 	return {
-		editorText: state.editorText,
-		previewText: state.previewText
+		editorText: state.editorText
 	}
 }
 
 function mapDispatchToProps(dispatch) {
 	return bindActionCreators({
-		textInput,
 		editorAction
 	}, dispatch);
 }

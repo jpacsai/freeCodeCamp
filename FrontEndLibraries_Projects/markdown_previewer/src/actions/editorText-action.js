@@ -1,6 +1,9 @@
-export default function editorAction (text) {
+export default function editorAction (e) {
+    
+    const text = e.target.value;
+
     return {
-        type: 'INPUT_TEXT',
+        type: 'TEXT_INPUT',
         text
     }
 }

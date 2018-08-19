@@ -26,6 +26,7 @@ An image:
 export default function editorReducer(state = defaultState, action) {
     switch (action.type) {
         case 'TEXT_INPUT':
+            console.log(action.text)
             return action.text;
             
         default:
