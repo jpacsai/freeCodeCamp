@@ -33,8 +33,8 @@
     - [x] React and Redux
     - [ ] **Front End Libraries Projects**
       - [x] [Random Quote Machine](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/)
-      - [ ] Markdown Previewer
-      - [ ] Drum Machine
+      - [x] [Markdown Previewer]((https://codepen.io/jutzee/full/RYbgzy/)
+      - [x] [Drum Machine](https://jpacsai.github.io/drum-machine-app/)
       - [x] [JavaScript Calculator ](https://jpacsai.github.io/freeCodeCamp/AdvancedProjects/Calculator/)
       - [ ] Pomodoro Clock
 
