@@ -1,9 +1,45 @@
-# Tribute Page  
+# Tribute Page 👏 
 
-## [Link](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/)  
+**This project is part of the FreeCodeCamp Responsive Web Design section.**
 
-### Objective:
-- I can view a tribute page with an image and text.
-- I can click on a link that will take me to an external website with further information on the topic.
+A drum machine app with similar functionality to this [codepen](https://codepen.io/freeCodeCamp/full/zNqgVx).
+The task was to fulfill the [user stories](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page) to successfully complete the project.
 
-<img src="https://i.imgur.com/v48RuqZ.jpg" alt="thumbnail pic of project website"  width="50%" height="50%">
+***
+
+<p align="center">
+  <img src="https://i.imgur.com/v48RuqZ.jpg" width="600" alt="portfolio page with a digitally drawn desk with computer and books"/>
+</p>
+
+***
+
+## 📑 Table of Contents
+* [Live link](#-live-link)
+* [Getting started](#-getting-started)
+* [How to use](#-how-to-use)
+* [Licence](#-licence)
+* [Credits](#-credits)
+
+## 🔗 Live link  
+Open the page directly from [here](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/)  
+
+## 🏁 Getting started
+
+### Installation  
+The system expected to have the following dependencies installed: `Git`
+
+1. Clone [repository](https://github.com/jpacsai/freeCodeCamp/tree/master/ResponsiveWebDesign_Projects/Tribute_page)
+2. Open **index.html** in your browser
+
+### Browser compatibility  
+The site was tested on Google Chrome only
+
+## 🍴 How to use  
+The page contains a time line of Coco Chanel with some interesting details.
+
+## 📜 Licence
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/jpacsai/freeCodeCamp/blob/master/LICENSE) file for details
+
+## 💰 Credits
+- photo from [The Telegraph](https://www.telegraph.co.uk/)
