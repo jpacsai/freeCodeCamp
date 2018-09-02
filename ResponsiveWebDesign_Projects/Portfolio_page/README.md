@@ -18,6 +18,7 @@ The task was to fulfill the [user stories](https://learn.freecodecamp.org/respon
 * [Getting started](#-getting-started)
 * [How to use](#-how-to-use)
 * [Licence](#-licence)
+* [Credits](#-credits)
 
 ## 🔗 Live link  
 Open the page directly from [here](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Portfolio_page/)  
@@ -39,3 +40,6 @@ The page contains links to my social media pages and some of my projects I have 
 ## 📜 Licence
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/jpacsai/freeCodeCamp/blob/master/LICENSE) file for details
+
+## 💰 Credits
+- background [image](https://unsplash.com/photos/wn-KYaHwcis) by [Jesus Kiteque](https://unsplash.com/@jesuskiteque) at [Unsplash](https://unsplash.com/)
