@@ -21,7 +21,7 @@ The task was to fulfill the [user stories](https://learn.freecodecamp.org/respon
 * [Credits](#-credits)
 
 ## 🔗 Live link  
-Open the page directly from [here](https://jpacsai.github.io/freeCodeCamp/BasicProjects/Tribute_page/)  
+Open the page directly from [here](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Tribute_page/)  
 
 ## 🏁 Getting started
 
