@@ -1,8 +1,8 @@
-# Tribute Page 👏 
+# Tribute Page 👩 
 
 **This project is part of the FreeCodeCamp Responsive Web Design section.**
 
-A drum machine app with similar functionality to this [codepen](https://codepen.io/freeCodeCamp/full/zNqgVx).
+A tribute page with similar functionality to this [codepen](https://codepen.io/freeCodeCamp/full/zNqgVx).
 The task was to fulfill the [user stories](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page) to successfully complete the project.
 
 ***
