@@ -8,7 +8,7 @@ The task was to fulfill the [user stories](https://learn.freecodecamp.org/respon
 ***
 
 <p align="center">
-  <img src="https://i.imgur.com/v48RuqZ.jpg" width="600" alt="portfolio page with a digitally drawn desk with computer and books"/>
+  <img src="https://i.imgur.com/v48RuqZ.jpg" width="600" alt="screenshot of the page with a title and a photo of Coco Chanel"/>
 </p>
 
 ***
