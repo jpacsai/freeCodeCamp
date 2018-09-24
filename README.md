@@ -24,19 +24,19 @@
     - [ ] Functional Programming
     - [x] Intermediate Algorithm Scripting
     - [x] **JavaScript Algorithms and Data Structures Projects**
-- [ ] **Front End Libraries Certification (300 hours)**
+- [x] **[Front End Libraries Certification](https://www.freecodecamp.org/certification/jpacsai/front-end-libraries) (300 hours)** ✔️
     - [x] Bootstrap
     - [x] jQuery
     - [x] Sass
     - [x] React
     - [x] Redux
     - [x] React and Redux
-    - [ ] **Front End Libraries Projects**
+    - [x] **Front End Libraries Projects**
       - [x] [Random Quote Machine](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/)
       - [x] [Markdown Previewer](https://codepen.io/jutzee/full/RYbgzy/)
       - [x] [Drum Machine](https://jpacsai.github.io/drum-machine-app/)
       - [x] [JavaScript Calculator ](https://jpacsai.github.io/freeCodeCamp/AdvancedProjects/Calculator/)
-      - [ ] Pomodoro Clock
+      - [x] Pomodoro Clock
 
 ## OLD COURSE STRUCTURE:
 
