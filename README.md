@@ -36,7 +36,7 @@
       - [x] [Markdown Previewer](https://codepen.io/jutzee/full/RYbgzy/)
       - [x] [Drum Machine](https://jpacsai.github.io/drum-machine-app/)
       - [x] [JavaScript Calculator ](https://jpacsai.github.io/freeCodeCamp/AdvancedProjects/Calculator/)
-      - [x] Pomodoro Clock
+      - [x] [Pomodoro Clock](https://jpacsai.github.io/Pomodoro_Clock/)
 
 ## OLD COURSE STRUCTURE:
 
