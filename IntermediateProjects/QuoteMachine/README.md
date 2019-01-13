@@ -1,5 +1,6 @@
 # Random Quote Machine  
 
+_API broken :( need to find new source of qoutes_
  ## [Link](https://jpacsai.github.io/freeCodeCamp/IntermediateProjects/QuoteMachine/)
 
 ### Objective:  
