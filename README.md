@@ -15,7 +15,7 @@
       - [x] [Personal Portfolio Webpage](https://jpacsai.github.io/freeCodeCamp/ResponsiveWebDesign_Projects/Portfolio_page/)
 - [x] **[Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/jpacsai/javascript-algorithms-and-data-structures) (300 hours)** ✔️
     - [x] Basic JavaScript
-    - [ ] ES6
+    - [x] ES6
     - [ ] Regular Expressions
     - [x] Debugging
     - [ ] Basic Data Structures
